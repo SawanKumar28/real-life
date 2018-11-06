@@ -38,6 +38,19 @@ Based on which dataset is being used and its location, the paths to diffusion da
 Details on all arguments can be obtained by running "help real\_life\_encode" in MATLAB.
 
 ## Reproducing the results of the paper
+
+### Dependencies
+We capture here the hardware and software dependencies as well as the configurations used to obtain the speedups presented in the paper with ReAl-LiFE. Although these dependencies are not strict, we suggest that settings as described here be used for reproduction and verification.
+
+#### Hardware dependencies
+All results presented in the paper (CPU and GPU) were obtained using a single machine with specifications as described below. The machine had 8 Intel(R) Xeon(R) CPU E5-2623 v3 @ 3.00GHz processors and 1 NVIDIA GeForce GTX 1080 Ti GPU card. For our experiments we used only 1 CPU and 1 GPU. The machine had a total of 64GB  DDR4 system memory. The DDR4 configuration was 4x16GB 1866 MHz. The GPU cards were configured to have persistence mode enabled. The total hard disk space available was 447 GB, out of which 64 GB was configured as swap.
+
+#### Software dependencies
+Ubuntu 16.04 was the operating system installed on the machine. MATLAB R2017b 64-bit was used to conduct all experiments. For the GPU experiments, CUDA toolkit 9.0 was installed on the machine. The GPU code binaries were built using the *nvcc* compiler with the flag *-ptx*. 
+ 
+Our code is built on top of the original LiFE code at https://github.com/brain-life/encode. The prerequisites  as mentioned there also apply for our code. Specifically, *Vistasoft* and *Matlab Brain Anatomy* (**MBA**) repositories need to be downloaded.
+
+### Running ReAl-LiFE on GPU
 Based on which dataset is being used and its location, the paths to diffusion data for training (dwiFile), diffusion data for cross validation (dwiFileRepeat), the anatomical T1 image (t1File) and the connectome to be evaluated (tck\_file) need to be updated: <br>
 <img src="images/workflow_files.png" alt="workflow" width="300"/> <br>
 
