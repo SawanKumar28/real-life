@@ -4,13 +4,13 @@
 This software implements a Regularized and GPU-accelerated version of LiFE. The original implementation of LiFE is available at https://github.com/brain-life/encode
 
 ## License
-#### Copyright (2018-), anonymized
+#### Copyright (2018-), Sawan Kumar, sawan.iitkgp@gmail.com, Varsha Sreenivasan, varshas@iisc.ac.in, Devarajan Sridharan, sridhar@iisc.ac.in
  
 ## Stable code release
 TBA
 
 ## Funding
-anonymized
+This research was funded by MHRD, Govt. of India (to Sawan Kumar, Varsha Sreenivasan); NSF IIS-1636893, NSF BCS-1734853 (to Franco Pestilli); a Wellcome Trust-Department of Biotechnology India Alliance Intermediate fellowship, a Science and Engineering Research Board Early Career award, a Pratiksha Trust Young Investigator award, a Department of Biotechnology-Indian Institute of Science Partnership Program grant, a Sonata Software foundation grant and a Tata Trusts grant (to Devarajan Sridharan).
 
 ## Installation
 1. Download the base version of LiFE(https://github.com/brain-life/encode).
