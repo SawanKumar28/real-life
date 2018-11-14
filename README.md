@@ -26,7 +26,6 @@ This research was funded by MHRD, Govt. of India (to Sawan Kumar, Varsha Sreeniv
 
 Refer to https://github.com/brain-life/encode to get started.
 
-
 ## Running the ReAl LiFE code
 (scripts/real/real\_life\_encode.m)
 Run 'help real\_life\_encode' for details in the arguments to be used.
@@ -36,6 +35,9 @@ Based on which dataset is being used and its location, the paths to diffusion da
   >>  real_life_encode(use_gpu, tck_file,subnum, Niter, lambda, gpudev)
 ```
 Details on all arguments can be obtained by running "help real\_life\_encode" in MATLAB.
+
+## How to cite the software
+Kumar, S., Sreenivasan V., Pestilli F., Talukdar P., and Sridharan D. (2019, January) "ReAl-LiFE: Accelerating the discovery of individualized brain connectomes on GPUs." Accepted to AAAI 2019 (proceedings in press).
 
 # Reproducing the results of the paper
 
@@ -88,5 +90,5 @@ Further, to ensure that we have not made an unfair comparison to the original al
 
 Finally, we benchmarked a "toy-example" code, which is a much simplified version of the baseline code. We performed the operation `b(i) = b(i) + a(i)`, on the same CPU where we conducted our experiments. The memory bandwidth achieved with this benchmark was ~2.46 GB/s. Given that the GPU we used (Nvidia GTX 1080i Ti) has a maximum memory bandwidth of 484 GB/s, the maximum possible speedup would be around ~200x for a memory bound process. The speedups we report, with the full algorithm, are of the same order (~50-100x).
 
-# References
-[1] Gugnani, Shashank, et al. "MPI-LiFE: Designing High-Performance Linear Fascicle Evaluation of Brain Connectome with MPI." High Performance Computing (HiPC), 2017 IEEE 24th International Conference on. IEEE, 2017.
+## References
+[1] Gugnani, S., Lu, X., Pestilli, F., Caiafa, C., & Panda, D. K. (2017, December). MPI-LiFE: Designing High-Performance Linear Fascicle Evaluation of Brain Connectome with MPI. In High Performance Computing (HiPC), 2017 IEEE 24th International Conference on (pp. 213-222). IEEE.
