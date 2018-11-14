@@ -37,7 +37,7 @@ Based on which dataset is being used and its location, the paths to diffusion da
 Details on all arguments can be obtained by running "help real\_life\_encode" in MATLAB.
 
 ## How to cite the software
-Kumar, S., Sreenivasan V., Pestilli F., Talukdar P., and Sridharan D. (2019, January) "ReAl-LiFE: Accelerating the discovery of individualized brain connectomes on GPUs." Accepted to AAAI 2019 (proceedings in press).
+Kumar, S., Sreenivasan V., Talukdar P., Pestilli F., and Sridharan D. (2019, January) "ReAl-LiFE: Accelerating the discovery of individualized brain connectomes on GPUs." Accepted to AAAI 2019 (proceedings in press).
 
 # Reproducing the results of the paper
 
