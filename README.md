@@ -13,11 +13,12 @@ TBA
 This research was funded by MHRD, Govt. of India (to Sawan Kumar, Varsha Sreenivasan); NSF IIS-1636893, NSF BCS-1734853 (to Franco Pestilli); a Wellcome Trust-Department of Biotechnology India Alliance Intermediate fellowship, a Science and Engineering Research Board Early Career award, a Pratiksha Trust Young Investigator award, a Department of Biotechnology-Indian Institute of Science Partnership Program grant, a Sonata Software foundation grant and a Tata Trusts grant (to Devarajan Sridharan).
 
 ## Installation
-1. Download the base version of LiFE(https://github.com/brain-life/encode).
+1. Download the base version of LiFE(https://github.com/brain-life/encode). ReAl-LiFE was built on top of commit 'c979e66' : https://github.com/brain-life/encode/tree/c979e664d897ff72abb62397410b472bfdea8e67 .
 2. Refer to https://github.com/brain-life/encode to download and install all the dependencies mentioned there.
-2. Download (real-life) into the same folder as #1. The sequence is important, as some files in #1 are updated in this step.
-2. [Start MatLab](http://www.mathworks.com/help/matlab/startup-and-shutdown.html).
-3. Add repository to the [matlab search path](http://www.mathworks.com/help/matlab/ref/addpath.html).
+3. Download (real-life) into the same folder as #1. The sequence is important, as some files in #1 are updated in this step.
+4. Ensure the nvcc compiler is in the PATH environment variable (This instruction is for Ubuntu machines. Update accordingly for other platforms).
+5. [Start MatLab](http://www.mathworks.com/help/matlab/startup-and-shutdown.html).
+6. Add repository to the [matlab search path](http://www.mathworks.com/help/matlab/ref/addpath.html).
 
 ## Dependencies
 * [MATLAB](http://www.mathworks.com/products/matlab/).
